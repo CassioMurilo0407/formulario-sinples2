@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="estilo.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <fieldset>
+    <legend>dados pessoais</legend>
+    <form>
+        digite seu nome: <input type="text" name="nome"><br>
+        idade: <input type="text" name="idade"><br>
+    
+        <div class="field">
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" placeholder="E-Mail*" required>
+        </div>
+    </form>
+    <form>
+        <label ="senha">senha:</label>
+        <input type="password" name="senha" placeholder="Digite sua Senha">
+    </form>
+    
+    <select name="time">
+        <option value="rj">rio de janeiro</option>
+        <option value="mg">minas gerais</option>
+        <option value="df">distrito federal</option>
+        <option value="ce">ceara</option>
+        <option value="ba">bahia</option>
+        <option value="al">alagoas</option>
+        <option value="sp">são paulo</option>
+        </select>
+   
+    </fieldset>
+   <fieldset>
+    <legend>dados profissionais</legend>
+    <form>
+        <p>selecione as tecnologias</p>
+        <div>
+            <input type="checkbox" id="scales" name="scales" checked />
+            <label for="HTML">HTML</label>
+            <input type="checkbox" id="scales" name="scales" checked />
+            <label for="CSS">CSS</label>
+            <input type="checkbox" id="scales" name="scales" checked />
+            <label for="Javascrpt">Javascript</label>
+            <input type="checkbox" id="scales" name="scales" checked />
+            <label for="typescript">Typescript</label>
+          </div>
+    </form>
+    <form>
+        <p>selecione sua ocupação</p>
+        <input type="radio" name="idade">front-end
+        <input type="radio" name="idade">back-end
+        <input type="radio" name="idade">full stack
+    </form>
+    <form>
+        <label ="Escreva">escreva sobre você:<br></label>
+        <textarea></textarea>
+    </form>
+    <form>
+        <label ="Escreva">anexe seu currículo:</label>
+        <input type="file" name="arquivos">
+    </form>
+    <br><br><br>
+   </fieldset>
+
+   <input type="submit" name="acao" value="Enviar">
+   <INPUT type="reset"  name="b2" value="reset">
+</body>
+</html>

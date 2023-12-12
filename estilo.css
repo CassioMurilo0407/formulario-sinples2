@@ -1,0 +1,38 @@
+css
+/* Estilo para o campo de texto */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Estilo para o select */
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Estilo para os checkboxes */
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Estilo para os radio buttons */
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Estilo para o botão de envio e reset */
+input[type="submit"],
+input[type="reset"] {
+  padding: 10px 20px;
+}
+
+/* Estilo para a legenda do fieldset */
+legend {
+  font-weight: bold;
+}
